@@ -1,0 +1,63 @@
+html {
+    background-color: black;
+}
+
+
+/* styleing the header*/
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+}
+
+/*main*/
+
+main {
+    color: yellow;
+}
+
+hr {
+    background-color: gold;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.projects img {
+    max-width: 100%;
+    
+}
+.project {
+    padding: 0.5rem;
+}
+.contact {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+/* styleing the footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: yellow;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+footer ul a {
+    text-decoration: none;
+    color: yellow;
+}
+footer p {
+    padding: 1rem;
+}
